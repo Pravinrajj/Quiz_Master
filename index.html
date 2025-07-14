@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Quiz Master</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Master</h1>
+        <div class="quiz">
+            <p>Who is the 7<sup>th</sup> member to join Straw Hats?</p>
+            <input type="text" placeholder="Your answer....">
+            <p>What is the age of Sabo, the Chief-of-Staff of the Revolutionary Army?</p>
+            <input type="text" placeholder="Your answer....">
+            <p>What is the family name of Killua?</p>
+            <input type="text" placeholder="Your answer...."><br>
+            <button onclick="strictEval()">Strict Score</button>
+            <button onclick="lenientEval()">Lenient Score</button>
+            <p id="score" style="text-align: center;"></p>
+        </div>
+    </div>
+</body>
+</html>
